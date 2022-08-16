@@ -2,3 +2,4 @@
 Proyecto de diseño de software 2022
 Felipe Gonzalez
 Vicente Garcia
+Hola, soy Vicente
