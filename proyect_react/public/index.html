@@ -130,13 +130,13 @@
               <!-- cuerpo del diálogo -->
               <div class="modal-body">
                 Calle 1 Nte. 1209, Local 06, Talca, Maule.
-              </div>
-              <div class="modal-header">
-                <h4 class="modal-title">Cátalogo</h4>
+                
               </div>
               <div class="modal-body">
-                No hay cátalogo
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3251.145021998567!2d-71.66174728474819!3d-35.42643738025444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9665c7ecc459092b%3A0x9cf14a727725643e!2sPlus%20Ultra!5e0!3m2!1ses!2scl!4v1662470304028!5m2!1ses!2scl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
               </div>
+              
+              
         
               <!-- pie del diálogo -->
               <div class="modal-footer">
@@ -146,6 +146,23 @@
             </div>
           </div>
         </div> 
+        <div class="modal fade" id="dialogo2">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Cátalogo</h4>
+              </div>
+              <div class="modal-body">
+                No hay cátalogo
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
     
         <header>
           <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
@@ -169,7 +186,7 @@
                   <a class="nav-link" data-toggle="modal" data-target="#dialogo1">Direccion</a>
                 </li>
                 <li class="nav-item active">
-                  <a class="nav-link" data-toggle="modal" data-target="#dialogo1">Cátalogo</a>
+                  <a class="nav-link" data-toggle="modal" data-target="#dialogo2">Cátalogo</a>
                 </li>
               </ul>
             </div>
