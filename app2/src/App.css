@@ -38,11 +38,21 @@
 }
 
 section{
-  color: #fff;
-  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
-  background-color: #ffb6b9b0;
-  height: 100vh;
+  color: rgb(0, 0, 0);
 }
 .navBg{
-  background-color: #7952b3;
+  background-color: #2f0075;
+}
+.centro{
+
+  padding-top: 8%;
+}
+.izquierda{
+  padding-left: 1%;
+}
+.abajo{
+  padding-bottom: 3%;
+}
+.a{
+  color: white;
 }

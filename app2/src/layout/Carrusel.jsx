@@ -1,42 +1,43 @@
 import Carousel from 'react-bootstrap/Carousel';
+import imagenes from '../imagenes';
 
 function UncontrolledExample() {
   return (
-    <Carousel>
+    <Carousel className='abajo'>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={require("../mha.png")}
+          src={imagenes.mha}
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>My Hero Academia</h3>
+          <p>Conoce la historia de como Izuku Midoriya se convierte en el héroe número 1</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={require("../dbs.png")}
+          src={imagenes.dbs}
           alt="Second slide"
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>Dragon Ball Super</h3>
+          <p>Continua la historia de Goku tras los sucesos ocurridos en Dragon Ball Z</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={require("../kny.jpg")}
+          src={imagenes.kny}
           alt="Third slide"
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Demond Slayer</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Acompaña a Tanjiro Kamado a salvar a su hermana
           </p>
         </Carousel.Caption>
       </Carousel.Item>

@@ -8,7 +8,6 @@ import Home from './components/home';
 import NavbareX from './layout/navbar';
 
 
-
 function App() {
   return (
     <div className="App">
@@ -27,6 +26,7 @@ function App() {
       </BrowserRouter>
 
     </div>
+    
   );
 }
 
