@@ -24,6 +24,7 @@ const NavbareX= () =>{
                     <Nav.Link as={Link} to='/'>Inicio</Nav.Link>
                     <Nav.Link as={Link} to='/catalogo'>Catalogo</Nav.Link>
                     <Nav.Link href='https://www.instagram.com/plusultralibreria/?hl=es'>Instagram</Nav.Link>
+                    <Nav.Link as={Link} to='/nosotros'>Sobre Nosotros</Nav.Link>
                     <Nav.Link onClick={handleShow}>Dirección
                         <Modal show={show} onHide={handleClose}>
                         <Modal.Header closeButton>
