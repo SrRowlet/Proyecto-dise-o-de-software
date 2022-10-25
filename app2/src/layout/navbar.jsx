@@ -25,24 +25,6 @@ const NavbareX= () =>{
                     <Nav.Link as={Link} to='/catalogo'>Catalogo</Nav.Link>
                     <Nav.Link href='https://www.instagram.com/plusultralibreria/?hl=es'>Instagram</Nav.Link>
                     <Nav.Link as={Link} to='/nosotros'>Sobre Nosotros</Nav.Link>
-                    <Nav.Link onClick={handleShow}>Dirección
-                        <Modal show={show} onHide={handleClose}>
-                        <Modal.Header closeButton>
-                            <Modal.Title>Dirección</Modal.Title>
-                        </Modal.Header>
-                        <Modal.Body>
-                            Acá debe ir lo de google maps https://www.google.com/maps/place/Plus+Ultra/@-35.4264374,-71.6595586,15z/data=!4m5!3m4!1s0x0:0x9cf14a727725643e!8m2!3d-35.4264374!4d-71.6595586
-                        </Modal.Body>
-                        <Modal.Footer>
-                            <Button variant="secondary" onClick={handleClose}>
-                            Close
-                            </Button>
-                            <Button variant="primary" onClick={handleClose}>
-                            Save Changes
-                            </Button>
-                        </Modal.Footer>
-                        </Modal>
-                    </Nav.Link>
                 </Nav>
                 </Navbar.Collapse>
             </Container>
