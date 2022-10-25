@@ -6,7 +6,7 @@ export default class Maps extends Component{
             <div className="container">
                 <GoogleMaps
                     apiKey={"AIzaSyAOS1taYdY2YgdlJhThlEx8qzIztDTnsYw"}
-                    style={{height:"500px", width: "700px" }}
+                    style={{height:"300px", width: "500px" }}
                     zoom={16}
                     center={{
                         lat: -35.4263515,
