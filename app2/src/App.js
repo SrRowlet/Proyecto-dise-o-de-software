@@ -2,13 +2,12 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min'
+import 'bootstrap-icons/font/bootstrap-icons.css'
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
-//import UncontrolledExample from './layout/Carrusel'
 import Catalogo from './components/catalogo';
 import Home from './components/home';
 import Nosotros from './components/nosotros';
 import NavbareX from './layout/navbar';
-
 
 function App() {
   return (
@@ -29,6 +28,7 @@ function App() {
       </BrowserRouter>
 
     </div>
+
     
   );
 }

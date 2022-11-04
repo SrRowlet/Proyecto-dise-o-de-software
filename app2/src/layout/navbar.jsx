@@ -2,9 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Outlet, Link } from 'react-router-dom';
-import Modal from 'react-bootstrap/Modal';
 import React, { useState } from 'react';
-import Button from 'react-bootstrap/Button';
 import imagenes from '../imagenes';
 
 const NavbareX= () =>{
@@ -16,7 +14,7 @@ const NavbareX= () =>{
         <>
         <Navbar className='navBg' variant='dark' expand="lg">
             <Container>
-            <img width="30" height="30" class="d-inline-block align-top"src={imagenes.plus}/>
+            <img width="30" height="30" class="d-inline-block align-top"src={imagenes.plus} alt=''/>
                 <Navbar.Brand as={Link} to='/' >Plus Ultra</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">

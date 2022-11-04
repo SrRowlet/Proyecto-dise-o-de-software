@@ -1,5 +1,6 @@
 import UncontrolledExample from "../layout/Carrusel"
 import imagenes from '../imagenes';
+import Footer from "./Footer";
 
 const Home= () =>{
     return(
@@ -12,7 +13,7 @@ const Home= () =>{
                 <p class="lead">Mangas y cómics directamente exportados desde México.</p>
             </div>
             <div class="col-md-5">
-                <img src={imagenes.panini} class="d-block w-100"></img>
+                <img src={imagenes.panini} alt='' class="d-block w-100"></img>
             </div>
         </div>
         <div class="row featurette">
@@ -21,7 +22,7 @@ const Home= () =>{
                 <p class="lead">Mangas directamente exportados desde Argentina.</p>
             </div>
             <div class="col-md-5 order-md-1">
-                <img src={imagenes.ivrea} class="d-block w-100"></img>
+                <img src={imagenes.ivrea} alt='' class="d-block w-100"></img>
             </div>
         </div>
 
@@ -31,14 +32,11 @@ const Home= () =>{
                 <p class="lead">Mangas y cómics directamente exportados desde España.</p>
             </div>
             <div class="col-md-5">
-                <img src={imagenes.norma} class="d-block w-100"></img>
+                <img src={imagenes.norma} alt='' class="d-block w-100"></img>
             </div>
         </div>
         <div>
-            <footer class="container">
-            <p class="float-end"><a href="#">Back to top</a></p>
-            <p>&copy; Plus Ultra &middot; </p>
-            </footer>
+           <Footer/>
         </div>
         </>
         

@@ -2,6 +2,7 @@ import Maps from "./mapa"
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Form } from 'react-formio';
+import Footer from "./Footer";
 const Nosotros= () =>{
     return(
         <div>
@@ -33,10 +34,10 @@ const Nosotros= () =>{
                 < h2 class="featurette-heading fw-normal lh-1">Contacto:</h2>
                 <p class="lead">Email: aaaaa@example.com.<br></br>Télefono: +569 12345678.</p>
                                           
-            </div>
-           
-       
-            
+            </div> 
+        </div>
+        <div>
+            <Footer/>
         </div>
         </div>
         
