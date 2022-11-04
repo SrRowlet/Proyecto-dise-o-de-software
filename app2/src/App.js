@@ -8,6 +8,8 @@ import Catalogo from './components/catalogo';
 import Home from './components/home';
 import Nosotros from './components/nosotros';
 import NavbareX from './layout/navbar';
+import Agregar from './components/agregar';
+
 
 function App() {
   return (
@@ -17,8 +19,9 @@ function App() {
       <Routes>
         <Route path='/' element={<NavbareX/>}>
           <Route index element={<Home/>}/>
-          <Route path='catalogo' element={<Catalogo/>}/>
-          <Route path='nosotros' element={<Nosotros/>}/>
+          <Route path='Catalogo' element={<Catalogo/>}/> 
+          <Route path='Nosotros' element={<Nosotros/>}/>
+          <Route path='Agregar' element={<Agregar/>}/>
 
           <Route path='*' element={<Navigate replace to='/'/>}/>
 
@@ -28,7 +31,6 @@ function App() {
       </BrowserRouter>
 
     </div>
-
     
   );
 }

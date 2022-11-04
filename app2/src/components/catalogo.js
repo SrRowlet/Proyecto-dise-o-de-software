@@ -1,14 +1,14 @@
+import Carrito from "./carrito"
 import Footer from "./Footer";
 
 const Catalogo= () =>{
-    return(
-        <div>
-            <h1>View Catalogo</h1>
-            <div>
-            <Footer/>
-            </div>
-        </div>
-
-    )
+  return(
+      <div>
+        <Carrito/>
+        <Footer/>
+      </div>
+      
+      
+  )
 }
 export default Catalogo
