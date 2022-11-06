@@ -44,7 +44,7 @@ const CrudForm = ({createData, updateData, dataToEdit, setDatatoEdit}) => {
     
     
 
-    <div>
+    <div style={{ padding:"1rem"}}>
     <h3>Agregar</h3>
     <form onSubmit={handleSubmit}>
         <input type="text" name="name" placeholder="Ingrese el nombre" onChange={handleChange} value={form.name} />

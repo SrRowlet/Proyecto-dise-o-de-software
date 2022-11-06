@@ -3,7 +3,7 @@ import CrudTableRow from './CrudTableRow'
 
 const CrudTable = ({data,setDataToEdit,deleteData}) => {
   return (
-    <div>
+    <div style={{ padding:"1rem"}}>
     <h3>Tabla de datos</h3>
     <table>
       

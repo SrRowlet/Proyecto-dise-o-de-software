@@ -49,8 +49,7 @@ const Carrito = () => {
   
 
   return (
-    <div>
-        <h2>Carrito de compras</h2> 
+    <div style={{ padding:"1rem"}}>
         <h3>Productos</h3> 
         <article className="box grid-responsive">
             {products.map((product)=><Producto key={product.id} data={product} addToCart={addToCart} />)}

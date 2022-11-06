@@ -7,7 +7,7 @@ import Footer from "./Footer";
 const Nosotros= () =>{
     return(
         <div>
-        <div className="container">    
+        <div style={{ padding:"1rem"}} className="container">    
             < h2 class="featurette-heading fw-normal lh-1">¿Quienes Somos?</h2>
             
             
@@ -17,25 +17,26 @@ const Nosotros= () =>{
                
                 <Form src="https://rlnixssdmvbdwaa.form.io/contacto" />    
         </div>
-        <div className="row featurette">
-            <div class="col-md-7 centro">
-                < h2 class="featurette-heading fw-normal lh-1">¿En dónde nos encontramos?</h2>
-                <p class="lead">Calle 1 Nte. 1209, Local 06, Talca, Maule.<br></br>Estamos en brisas del centro talca local 6</p>
-            </div>
-            <div className="col-md-5">
+        <div style={{ padding:"1rem"}} className="clearfix">
+            <div class="col-md-6 float-md-end mb-3 ms-md-3">
                 <Maps/>
             </div>
-            <div className="container">
-                < h2 class="featurette-heading fw-normal lh-1">Horario:</h2>
-                <p class="lead">Lun a vie 11 a 14 y 15 a 19 hrs.<br></br>Sáb 11:00 a 14:00 y de 15:00 a 18:00.</p>
-                < h2 class="featurette-heading fw-normal lh-1">Contacto:</h2>
-                <p class="lead">Email: aaaaa@example.com.<br></br>Télefono: +569 12345678.</p>
-                                          
+            <div className="col-md-6 mb-3 ms-md-3 mb-3 ms-md-3 text-center centro">
+                < h2 class="featurette-heading fw-normal lh-1">¿En dónde nos encontramos?</h2>
+                <p class="lead">Calle 1 Nte. 1209, Local 06, Talca, Maule.<br></br>Estamos en brisas del centro talca local 6</p>
+
             </div>
+        </div>
+        <div style={{ padding:"1rem"}} className="container">
+            < h2 class="featurette-heading fw-normal lh-1">Horario:</h2>
+            <p class="lead">Lun a vie 11 a 14 y 15 a 19 hrs.<br></br>Sáb 11:00 a 14:00 y de 15:00 a 18:00.</p>
+            < h2 class="featurette-heading fw-normal lh-1">Contacto:</h2>
+            <p class="lead">Email: aaaaa@example.com.<br></br>Télefono: +569 12345678.</p>                                  
+        </div>
            
        
             
-        </div>
+        
         <div>
             <Footer/>
         </div>
