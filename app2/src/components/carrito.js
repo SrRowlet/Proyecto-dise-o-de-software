@@ -46,17 +46,19 @@ const Carrito = () => {
         dispatch({type:TYPES.REMOVE_ONE_FROM_CART,payload:id})
     }
   };
-  
+  const guardarCarro = (id)=>{
+    dispatch({type:TYPES.GUARDAR_CARRO,payload:id})  
+  }
 
   return (
     <div>
-        <h2>Carrito de compras</h2> 
         <h3>Productos</h3> 
         <article className="box grid-responsive">
             {products.map((product)=><Producto key={product.id} data={product} addToCart={addToCart} />)}
         </article>
         <h3>Carrito</h3>
         <article className="box">
+        <button onClick={guardarCarro}>Guardar Carrito</button>
             {cart.map((item , index) => <CarritoItem key={index} data={item} delFromCart={delFromCart} />)}
         </article>
     </div>

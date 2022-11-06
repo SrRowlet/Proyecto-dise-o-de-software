@@ -37,6 +37,12 @@ export function carritoReducer(state , action){
                 
             };
             }
+        case TYPES.GUARDAR_CARRO: { 
+                let car=state.cart
+                localStorage.setItem("compras", JSON.stringify(car)) 
+
+                
+            }
 
         default:
             return state;
