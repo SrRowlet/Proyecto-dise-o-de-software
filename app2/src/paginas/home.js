@@ -1,6 +1,6 @@
 import UncontrolledExample from "../layout/Carrusel"
 import imagenes from '../imagenes';
-import Footer from "./Footer";
+import Footer from "../components/Footer";
 
 const Home= () =>{
     return(

@@ -1,8 +1,8 @@
-import Maps from "./mapa"
+import Maps from "../components/mapa"
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Form } from 'react-formio';
-import Footer from "./Footer";
+import Footer from "../components/Footer";
 
 const Nosotros= () =>{
     return(

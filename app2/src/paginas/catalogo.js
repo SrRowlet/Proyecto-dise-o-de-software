@@ -1,5 +1,5 @@
-import Carrito from "./carrito"
-import Footer from "./Footer";
+import Carrito from "../components/carrito"
+import Footer from "../components/Footer";
 
 const Catalogo= () =>{
   return(
@@ -7,7 +7,7 @@ const Catalogo= () =>{
         <Carrito/>
         <Footer/>
       </div>
-      
+
       
   )
 }

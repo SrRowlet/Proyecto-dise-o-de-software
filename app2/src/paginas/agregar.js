@@ -1,9 +1,8 @@
 import { Form } from 'react-formio/lib/components'
-import CrudForm from './CrudForm'
-import CrudTable from './CrudTable'
+import CrudForm from '../cruds/CrudForm'
+import CrudTable from '../cruds/CrudTable'
 import React, { useEffect, useState } from 'react';
 import { helpHttp } from '../helpers/helpHttp';
-import Footer from "./Footer";
 
 
 const Agregar = () => {
