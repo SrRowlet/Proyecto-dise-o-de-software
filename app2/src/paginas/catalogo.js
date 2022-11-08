@@ -3,11 +3,14 @@ import Footer from "../components/Footer";
 
 const Catalogo= () =>{
   return(
-      <div>
+    <>
+      <div className="centrada">
         <Carrito/>
+      </div>
+      <div>
         <Footer/>
       </div>
-
+    </>
       
   )
 }

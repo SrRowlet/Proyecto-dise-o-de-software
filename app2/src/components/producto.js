@@ -1,3 +1,4 @@
+import Button from 'react-bootstrap/Button';
 
 const Producto = ({data, addToCart}) => {
     
@@ -17,7 +18,7 @@ const Producto = ({data, addToCart}) => {
           />
       </div>
         <br></br>
-        <button onClick={() => addToCart(id)}>Agregar</button>
+        <Button style={{backgroundColor: 'indigo', borderColor:'indigo'}} onClick={() => addToCart(id)}>Agregar</Button>
  
     </div>
   )

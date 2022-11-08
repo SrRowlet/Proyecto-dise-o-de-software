@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from 'react-bootstrap/Button';
 
 const CrudTableRow = ({el, setDataToEdit,deleteData}) => {
   let {name,precio,id,imagen} = el;
@@ -13,8 +14,8 @@ const CrudTableRow = ({el, setDataToEdit,deleteData}) => {
             
 
     <td>
-        <button onClick={()=> setDataToEdit(el)} >editar</button>
-        <button onClick={()=> deleteData(id)}>eliminar</button>
+        <Button onClick={()=> setDataToEdit(el)} style={{backgroundColor: 'indigo', borderColor:'indigo'}}>Editar</Button>
+        <Button onClick={()=> deleteData(id)} style={{backgroundColor:'crimson', borderColor:'crimson'}}>Eliminar</Button>
     </td>
 
     </tr>

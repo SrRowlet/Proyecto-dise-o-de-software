@@ -7,6 +7,7 @@ import Footer from "../components/Footer";
 const Nosotros= () =>{
     return(
         <div>
+            <div className="centrada">
         <div style={{ padding:"1rem"}} className="container">    
             < h2 class="featurette-heading fw-normal lh-1">¿Quienes Somos?</h2>
             
@@ -32,6 +33,7 @@ const Nosotros= () =>{
             <p class="lead">Lun a vie 11 a 14 y 15 a 19 hrs.<br></br>Sáb 11:00 a 14:00 y de 15:00 a 18:00.</p>
             < h2 class="featurette-heading fw-normal lh-1">Contacto:</h2>
             <p class="lead">Email: aaaaa@example.com.<br></br>Télefono: +569 12345678.</p>                                  
+        </div>
         </div>
            
        

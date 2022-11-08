@@ -20,13 +20,11 @@ const NavbareX= () =>{
                     <Nav.Link as={Link} to='/'>Inicio</Nav.Link>
                     <Nav.Link as={Link} to='/catalogo'>Catálogo</Nav.Link>
                     <Nav.Link as={Link} to='/nosotros'>Sobre Nosotros</Nav.Link>                   
-                    <Nav.Link as={Link} to='/agregar'>Agregar Libros</Nav.Link>
                     <Nav.Link as={Link} to='/compras'>Compras Realizadas</Nav.Link>
                 </Nav>
                 <Nav className='justify-content-end'>
-                    <Nav.Link href='https://www.instagram.com/plusultralibreria/?hl=es'>Instagram</Nav.Link>
+                    <Nav.Link href='https://www.instagram.com/plusultralibreria/?hl=es'><i className="bi bi-instagram"></i></Nav.Link>
                 </Nav>
-                
                 </Navbar.Collapse>
                 
             </Container>

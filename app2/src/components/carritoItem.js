@@ -1,3 +1,5 @@
+import Button from 'react-bootstrap/Button';
+
 const CarritoItem = ({data,delFromCart}) => {
 
   let {name,precio,imagen,id,cantidad} = data;
@@ -10,9 +12,9 @@ const CarritoItem = ({data,delFromCart}) => {
           src={imagen}
         />
         <br></br>
-        <button onClick={()=>delFromCart(id)}>Eliminar Uno</button>
+        <Button style={{backgroundColor:'red', borderColor:'red'}} onClick={()=>delFromCart(id)}>Eliminar Uno</Button>
         <br/>
-        <button onClick={()=>delFromCart(id, true)}>Eliminar Todos</button>
+        <Button onClick={()=>delFromCart(id, true)}>Eliminar Todos</Button>
         <br/>
         <br/>
 
