@@ -14,9 +14,10 @@ const Carrito = () => {
   
 
   const{products,cart} = state;
-  
+
   let api = helpHttp();
   let url = "http://localhost:5000/libros";
+  var carro = JSON.parse(localStorage.getItem("carro"))
 
   useEffect(() => {
     api
@@ -25,8 +26,10 @@ const Carrito = () => {
         //console.log(res);
         if (!res.err) {
           //setDb(res);
-          dispatch({ type: TYPES.READ_ALL_DATA, payload: res });
-        } 
+          dispatch({ type: TYPES.READ_ALL_DATA, payload: res })
+          if (localStorage.getItem("carro") != undefined ) {
+            dispatch({ type: TYPES.LOCAL, payload: carro});} 
+          }  
       });
   }, []);
  
@@ -34,7 +37,6 @@ const Carrito = () => {
   const addToCart = (id) => {
     
     dispatch({type:TYPES.ADD_TO_CART,payload:id});
-    
     
   };
   
@@ -46,20 +48,19 @@ const Carrito = () => {
         dispatch({type:TYPES.REMOVE_ONE_FROM_CART,payload:id})
     }
   };
-  const guardarCarro = (id)=>{
-    dispatch({type:TYPES.GUARDAR_CARRO,payload:id})  
-  }
+  
 
   return (
     <div style={{ padding:"1rem"}}>
         <h3>Productos</h3> 
         <article className="box grid-responsive">
-            {products.map((product)=><Producto key={product.id} data={product} addToCart={addToCart} />)}
+            {products.map((product)=><Producto key={product.id} data={product} addToCart={addToCart} delFromCart={delFromCart} />)}
         </article>
         <h3>Carrito</h3>
         <article className="box">
-        <button onClick={guardarCarro}>Guardar Carrito</button>
-            {cart.map((item , index) => <CarritoItem key={index} data={item} delFromCart={delFromCart} />)}
+        
+            
+            {cart.map((item , index) => <CarritoItem key={index} data={item} addToCart={addToCart} delFromCart={delFromCart} />)}
         </article>
     </div>
   )
