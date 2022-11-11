@@ -61,11 +61,13 @@ section{
   color: white;
 }
 .carousel-inner img {
-  width: 100%;
   max-height: 460px;
+  object-fit: cover;
 }
-.carousel-inner{
-  height: 460px;
+
+.carousel-caption{
+  text-align: center;
+  background-color: rgba(43, 43, 43, 0.5)
 }
 
 .footer{

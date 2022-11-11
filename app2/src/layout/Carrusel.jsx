@@ -6,7 +6,7 @@ function UncontrolledExample() {
     <Carousel className='abajo'>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block w-100 img-fluid"
           src={imagenes.mha}
           alt="First slide"
         />
@@ -17,7 +17,7 @@ function UncontrolledExample() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block w-100 img-fluid"
           src={imagenes.dbs}
           alt="Second slide"
         />
@@ -29,7 +29,7 @@ function UncontrolledExample() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block w-100 img-fluid"
           src={imagenes.kny}
           alt="Third slide"
         />

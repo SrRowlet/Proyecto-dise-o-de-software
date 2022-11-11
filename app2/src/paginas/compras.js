@@ -21,7 +21,7 @@ const Compras = () => {
             <h5>PRECIO TOTAL: ${item.precio*item.cantidad} CLP</h5>
             <h5>CANTIDAD: {item.cantidad}</h5>
             <img
-              className="d-block w-100"
+              className="d-block w-100 border border-dark"
               src={item.imagen}
             />
           </div>))}

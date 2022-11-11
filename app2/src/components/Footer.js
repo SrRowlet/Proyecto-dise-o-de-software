@@ -5,11 +5,11 @@ import imagenes from "../imagenes";
 
 const Footer=() =>{
     return(
-            <footer className='text-white py-4 bg-dark'>
+            <footer className='text-white py-4'>
                 <div className='container-fluid'>
                     <nav className='row'>
                         <Link to='/' className='col-12 col-md-3 d-flex align-items-center justify-content-center'>
-                            <img src={imagenes.plus} alt='' className='mx-2' height='100'/>
+                            <img src={imagenes.plus} alt='' className='mx-2 img-fluid' height='100'/>
                         </Link>
                         <ul className="col-12 col-md-3">
                             <p className="font-weight-bold"> Sobre Nosotros</p>

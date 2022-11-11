@@ -1,3 +1,4 @@
+import Button from "react-bootstrap/esm/Button";
 
 const Producto = ({data, addToCart, delFromCart}) => {
     
@@ -14,18 +15,18 @@ const Producto = ({data, addToCart, delFromCart}) => {
       </div>
       <div>
         <img
-            className="d-block w-100 fotos2"
+            className="d-block w-100 fotos2 border border-dark"
             src={imagen}
           />
       </div>
         <br/>
-        <button  type="button" class="btn btn-success" onClick={() => addToCart(id)}>Agregar</button>
+        <Button style={{backgroundColor: 'indigo', borderColor:'indigo'}} class="btn btn-success" onClick={() => addToCart(id)}>Agregar</Button>
         <br/>
         
         <div class="alert alert-success" role="alert">
           This is a success alert—check it out!
         </div>
-        <button type="button" class="btn btn-danger" onClick={()=>delFromCart(id)}>Eliminar Uno</button>
+        <Button style={{backgroundColor:'crimson', borderColor:'crimson'}} class="btn btn-danger" onClick={()=>delFromCart(id)}>Eliminar Uno</Button>
         <br/> 
     </div>
   )

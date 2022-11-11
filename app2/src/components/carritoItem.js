@@ -12,7 +12,7 @@ const CarritoItem = ({data,delFromCart}) => {
           src={imagen}
         />
         <br></br>
-        <Button style={{backgroundColor:'red', borderColor:'red'}} onClick={()=>delFromCart(id)}>Eliminar Uno</Button>
+        <Button style={{backgroundColor:'crimson', borderColor:'crimson'}} onClick={()=>delFromCart(id)}>Eliminar Uno</Button>
         <br/>
         <Button onClick={()=>delFromCart(id, true)}>Eliminar Todos</Button>
         <br/>
