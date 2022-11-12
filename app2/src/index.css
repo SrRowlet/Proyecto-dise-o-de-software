@@ -15,13 +15,16 @@ code {
 .box{
   padding: 1rem;
   margin: 1rem;
-  box-shadow: 0 0 1rem #00000025 inset;
+  
+  width :100%;
+  justify-content: center;
 }
 
 .grid-responsive{
   display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  grid-template-columns:repeat(auto-fit,minmax(200px,250px));
   gap:1rem;
+  
 }
 
 html{

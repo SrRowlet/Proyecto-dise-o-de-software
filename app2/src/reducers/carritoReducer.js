@@ -33,20 +33,20 @@ export function carritoReducer(state , action){
         let itemToDelete = state.cart.find((item)=>item.id===action.payload);
         var carro = JSON.parse(localStorage.getItem("carro"))
 
-        
+        console.log(itemToDelete.cantidad)
+        console.log(itemToDelete)
 
-
-        
-
-        if(itemToDelete.cantidad === 1){
-            let newData = carro.filter((item) => item.id !== action.payload)
-            localStorage.setItem("carro", JSON.stringify(newData));
-        }else{
-            let producto = carro.find((product) => product.id === action.payload);
-        
-            producto.cantidad= itemToDelete.cantidad - 1 ;
-            localStorage.setItem("carro", JSON.stringify(carro));}
+        if(itemToDelete){
+            if(itemToDelete.cantidad === 1 ){
+                let newData = carro.filter((item) => item.id !== action.payload)
+                localStorage.setItem("carro", JSON.stringify(newData));
+            }else{
+                let producto = carro.find((product) => product.id === action.payload);
             
+                producto.cantidad= itemToDelete.cantidad - 1 ;
+                localStorage.setItem("carro", JSON.stringify(carro));}
+            }
+        
  
         
             

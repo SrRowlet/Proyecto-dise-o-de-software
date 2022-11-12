@@ -53,9 +53,13 @@ const Carrito = () => {
   return (
     <div style={{ padding:"1rem"}}>
         <h3>Productos</h3> 
-        <article className="box grid-responsive">
-            {products.map((product)=><Producto key={product.id} data={product} addToCart={addToCart} delFromCart={delFromCart} />)}
-        </article>
+       
+          <article className="box grid-responsive">
+              {products.map((product)=><Producto key={product.id} data={product} addToCart={addToCart} />)}
+          </article>
+       
+
+
         <h3>Carrito</h3>
         <article className="box">
         

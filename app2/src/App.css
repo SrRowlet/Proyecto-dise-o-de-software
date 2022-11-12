@@ -73,3 +73,30 @@ section{
 .footer{
   text-align: left;
 }
+
+
+.caja img{
+  width: 220px;
+  height: 280px;
+  border-radius: 15px;
+}
+.caja p{
+  text-align: center;
+  font-size: 20px;
+  
+}
+.ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+ }
+.agregar{
+  margin-left: 100px;
+}
+.elimUno{
+  margin-right: 100px;
+}
+.elimTodos{
+  margin-left: 35px;
+}
+
