@@ -12,7 +12,9 @@ const NavbareX= () =>{
         <>
         <Navbar className='navBg' variant='dark' expand="lg">
             <Container>
-            <img width="30" height="30" class="d-inline-block align-top"src={imagenes.plus}/>
+                <Navbar.Brand>
+                    <img width="35" height="35" class="d-inline-block align-top"src={imagenes.plus}/>
+                </Navbar.Brand>
                 <Navbar.Brand as={Link} to='/' >Plus Ultra</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -20,11 +22,10 @@ const NavbareX= () =>{
                     <Nav.Link as={Link} to='/'>Inicio</Nav.Link>
                     <Nav.Link as={Link} to='/catalogo'>Catálogo</Nav.Link>
                     <Nav.Link as={Link} to='/nosotros'>Sobre Nosotros</Nav.Link>                   
-                    <Nav.Link as={Link} to='/compras'>Compras Realizadas</Nav.Link>
                 </Nav>
-                <Nav className='justify-content-end'>
+                <Navbar.Brand className='justify-content-end'>
                     <Nav.Link href='https://www.instagram.com/plusultralibreria/?hl=es'><i className="bi bi-instagram"></i></Nav.Link>
-                </Nav>
+                </Navbar.Brand>
                 </Navbar.Collapse>
                 
             </Container>
