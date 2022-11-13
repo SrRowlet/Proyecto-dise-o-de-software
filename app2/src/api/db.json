@@ -1,0 +1,46 @@
+{
+  "libros": [
+    {
+      "id": 2,
+      "name": "DRAGON BALL ULTIMATE 01",
+      "precio": 10000,
+      "imagen": "https://www.crazyallcomics.cl/media/catalog/product/cache/23/image/9df78eab33525d08d6e5fb8d27136e95/u/l/ultimate_dragonball_01.jpg"
+    },
+    {
+      "name": "DRAGON BALL ULTIMATE 22",
+      "precio": 10000,
+      "id": 1667430663665,
+      "imagen": "https://www.crazyallcomics.cl/media/catalog/product/cache/23/image/9df78eab33525d08d6e5fb8d27136e95/u/l/ultimate_dragonball_22.jpg"
+    },
+    {
+      "id": 3,
+      "name": "MY HERO ACADEMIA 01 IVREA",
+      "precio": 7500,
+      "imagen": "https://www.crazyallcomics.cl/media/catalog/product/cache/23/image/9df78eab33525d08d6e5fb8d27136e95/i/v/ivrea_manga_my_hero_academia_01.jpg"
+    },
+    {
+      "id": 4,
+      "name": "MY HERO ACADEMIA 02 IVREA",
+      "precio": 7500,
+      "imagen": "https://www.crazyallcomics.cl/media/catalog/product/cache/23/image/9df78eab33525d08d6e5fb8d27136e95/i/v/ivrea_argentina_my_hero_academia_02.jpg"
+    },
+    {
+      "id": 5,
+      "name": "KIMETSU NO YAIBA 01",
+      "precio": 5000,
+      "imagen": "https://www.crazyallcomics.cl/media/catalog/product/cache/23/image/9df78eab33525d08d6e5fb8d27136e95/d/e/demonslayer01.jpg"
+    },
+    {
+      "id": 6,
+      "name": "KIMETSU NO YAIBA 02",
+      "precio": 5000,
+      "imagen": "https://www.crazyallcomics.cl/media/catalog/product/cache/23/image/9df78eab33525d08d6e5fb8d27136e95/d/e/demonslayer02.jpg"
+    },
+    {
+      "name": "BATMAN GUERRA CONTRA EL CRIMEN",
+      "precio": 15000,
+      "id": 1667675662512,
+      "imagen": "https://www.crazyallcomics.cl/media/catalog/product/cache/23/image/9df78eab33525d08d6e5fb8d27136e95/u/n/unlimited_batman_guerra_contra_el_crimen.jpg"
+    }
+  ]
+}
